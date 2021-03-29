@@ -23,7 +23,8 @@ My portfolio webiste with work and volunteer experience, projects, education his
 
 ## Screenshots
 
-![screenshot_dayoajayi github io](https://user-images.githubusercontent.com/229899/111890816-2c4c0000-89bb-11eb-8dff-af021d477015.png)
+![screenshot_dayoajayi github io](https://user-images.githubusercontent.com/229899/112789333-79b31780-9022-11eb-8b4a-fc4d8042f4f9.png)
+
 
   
 ## Features
