@@ -1,0 +1,5 @@
+exclude:
+  - docs/
+  - CLAUDE.md
+  - README.md
+  - .superpowers/
