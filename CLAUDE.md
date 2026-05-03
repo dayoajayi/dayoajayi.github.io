@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A single-page static personal portfolio site for Dayo Ajayi, deployed at https://dayoajayi.github.io/. Because the repo is named `<username>.github.io`, GitHub Pages serves the root directly — there is no Jekyll config (`_config.yml`) and no build pipeline. Pushing to `master` is the deploy.
+A single-page static personal portfolio site for Dayo Ajayi, deployed at https://dayoajayi.github.io/. Because the repo is named `<username>.github.io`, GitHub Pages serves the root directly. A minimal `_config.yml` activates Jekyll only to use its `exclude:` directive — `index.html` and `assets/` pass through unchanged; there's no actual build step in the developer sense. Pushing to `master` is the deploy.
 
 ## Working on the site
 
@@ -21,6 +21,8 @@ python3 -m http.server 8000   # then visit http://localhost:8000
 ```
 
 To deploy: commit and push to `master`. GitHub Pages picks it up automatically.
+
+`_config.yml` excludes `docs/`, `CLAUDE.md`, `README.md`, and `.superpowers/` from the deployed site, so design specs and editor scratch files stay version-controlled but are not web-accessible. If you add a new directory you don't want served (e.g. internal notes), add it to the `exclude:` list.
 
 ## Architecture
 
